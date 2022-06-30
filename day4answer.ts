@@ -1,8 +1,15 @@
-type PrintArr = {
-    <TypePlaceholder>(arr: TypePlaceholder[]):TypePlaceholder
-  }
+//1번 : last(arr) 함수   
+function last<T>(a: T[]){
+    return a[(a.length-1)]
+}
+// console.log("last 결과")
+console.log(last([1,2,3,4]))
+// console.log(last(["1","2","hi"]))
 
-const last: PrintArr = (arr) => arr[arr.length-1]
 
-const answer = last([1,2,3,4])
-console.log(answer) 
+//2번 배열의 시작에 아이템을 넣고 리턴하는 함수 prepend(arr, item)
+function Print<T>(a: T[]){
+    return a[a.length-1]
+}
+
+Print([1,2,3,4])

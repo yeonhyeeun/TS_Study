@@ -44,3 +44,5 @@ const c = superPrint(["a", "b", "c"])
 const d = superPrint(["a", "b", 1, 2, true])
 
 console.log(a)
+
+type a = Array<number>
