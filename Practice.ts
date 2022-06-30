@@ -42,3 +42,5 @@ const a = superPrint([1,2,3,4])
 const b = superPrint([true, false, false])
 const c = superPrint(["a", "b", "c"])
 const d = superPrint(["a", "b", 1, 2, true])
+
+console.log(a)
