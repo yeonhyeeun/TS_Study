@@ -46,3 +46,29 @@ const d = superPrint(["a", "b", 1, 2, true])
 console.log(a)
 
 type a = Array<number>
+
+// day 5 
+// #4.0
+
+abstract class User {
+    constructor(
+        //Private, protected, public 
+        private firstname:string, 
+        private lastname:string, 
+        protected nickname:string 
+    ){}
+    abstract getNickname():void
+    getFullname(){
+        return `${this.firstname} ${this.lastname}`
+    }
+}
+
+class Player extends User{
+    getNickname() {
+        console.log(this.nickname)
+    }
+}
+
+const nico = new Player("nico", "las", "니꼬");
+nico.getNickname()
+nico.getFullname()
