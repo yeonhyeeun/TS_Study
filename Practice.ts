@@ -74,3 +74,6 @@ nico.getNickname()
 nico.getFullname()
 
 //07.04 4.2 interfaces
+type Food = string; 
+
+type Friends = Array<string> 
