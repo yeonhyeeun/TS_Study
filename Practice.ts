@@ -72,3 +72,5 @@ class Player extends User{
 const nico = new Player("nico", "las", "니꼬");
 nico.getNickname()
 nico.getFullname()
+
+//07.04 4.2 interfaces
