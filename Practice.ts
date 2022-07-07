@@ -82,6 +82,7 @@ type Team = "red" | "blue" | "yellow"
 type Health = 1 |  5 | 10 
 type friendship = 1 | 3 | 5 | 7 | 9 | 10 
 
+//interface에서는 타입만 지정할 수 있다. 
 interface HyeFriends {
     nickname: string, 
     team: Team, 

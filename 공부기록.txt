@@ -1,2 +1,12 @@
 TS에서는 클래스를 만들고 이 클래스를 타입처럼 사용할 수 있다!
 다른 이가 수정을 하도록 만들고 싶지 않는다면 readonly property를 작성해준다. 
+
+type Player = {
+    nickname: string, 
+    health : number 
+}
+
+const nico : Player = {
+    nickname : "nico", 
+    health : 3
+}
