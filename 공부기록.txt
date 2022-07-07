@@ -10,3 +10,6 @@ const nico : Player = {
     nickname : "nico", 
     health : 3
 }
+
+recap 4.4 
+-> TS에게 오브젝트의 모양을 알려주기 위해서는 인터페이스를 쓰고, 나머지의 경우에는 타입을 쓴다. 
