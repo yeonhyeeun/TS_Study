@@ -77,3 +77,14 @@ nico.getFullname()
 type Food = string; 
 
 type Friends = Array<string> 
+type Team = "red" | "blue" | "yellow"
+//내가 원하는대로 type 지정 가능, 혹은 특정한 것으로 지정까지 가능 
+type Health = 1 |  5 | 10 
+type friendship = 1 | 3 | 5 | 7 | 9 | 10 
+
+interface HyeFriends {
+    nickname: string, 
+    team: Team, 
+    health: Health, 
+    FriendShip : friendship
+}
